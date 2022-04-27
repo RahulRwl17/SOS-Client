@@ -17,7 +17,7 @@ class Table {
     }
 
 
-    static findTable = async (data) => {
+    static findTables = async (data) => {
         const token = localStorage.getItem('token')
 
         var res = await fetch(`${base}/table/TablesList`, {
